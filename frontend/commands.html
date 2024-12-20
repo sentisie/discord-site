@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commands - Resonix</title>
+    <link rel="icon" href="assets/images/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.svg" alt="МузБот" class="logo-img">
+                <span class="logo-text">Resonix</span>
+            </a>
+            <div class="nav-links">
+                <a href="faq.html">FAQ</a>
+                <a href="commands.html">Commands</a>
+					 <a href="contact.html">Contact us</a>
+                <a href="https://discord.com/oauth2/authorize?client_id=1315602701471580240&permissions=36703232&integration_type=0&scope=bot+applications.commands" class="invite-btn">Invite</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Bot Commands</h1>
+            <p>All available commands for Resonix bot</p>
+        </section>
+
+        <section class="commands-section">
+            <div class="commands-container">
+                <div class="commands-page" id="page1">
+                    <div class="command-card">
+                        <h3>/play</h3>
+                        <p>Play a track from SoundCloud. You can use URL or just enter the track name</p>
+                        <div class="command-usage">
+                            <code>/play [url or track name]</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>/stop</h3>
+                        <p>Stop playback and clear the queue</p>
+                        <div class="command-usage">
+                            <code>/stop</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>/skip</h3>
+                        <p>Skip the current track and play the next one in queue</p>
+                        <div class="command-usage">
+                            <code>/skip</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>/loop</h3>
+                        <p>Enable/disable track looping. The current track will play repeatedly</p>
+                        <div class="command-usage">
+                            <code>/loop</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>/queue</h3>
+                        <p>Display the current queue of tracks</p>
+                        <div class="command-usage">
+                            <code>/queue</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>/shuffle</h3>
+                        <p>Shuffle all tracks in the current queue</p>
+                        <div class="command-usage">
+                            <code>/shuffle</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>/volume</h3>
+                        <p>Adjust the playback volume (0-100)</p>
+                        <div class="command-usage">
+                            <code>/volume [0-100]</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>/nowplaying</h3>
+                        <p>Show information about the currently playing track</p>
+                        <div class="command-usage">
+                            <code>/nowplaying</code>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="commands-page" id="page2">
+                    <div class="command-card">
+                        <h3>loop</h3>
+                        <p>Loops the current song</p>
+                        <div class="command-usage">
+                            <code>/loop</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>loopq</h3>
+                        <p>Loop the current song queue</p>
+                        <div class="command-usage">
+                            <code>/loopq</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>lyrics</h3>
+                        <p>Get the lyrics of a song</p>
+                        <div class="command-usage">
+                            <code>/lyrics</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>move</h3>
+                        <p>Moves track to a different position</p>
+                        <div class="command-usage">
+                            <code>/move [position]</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>nowplaying</h3>
+                        <p>Shows the song currently playing in the voice channel</p>
+                        <div class="command-usage">
+                            <code>/nowplaying</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>pause</h3>
+                        <p>Pauses the current playing track</p>
+                        <div class="command-usage">
+                            <code>/pause</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>ping</h3>
+                        <p>View the bot's latency</p>
+                        <div class="command-usage">
+                            <code>/ping</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>play</h3>
+                        <p>Searches and plays the requested song<br>Supports: SoundCloud</p>
+                        <div class="command-usage">
+                            <code>/play [url or track name]</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>previous</h3>
+                        <p>Go back to the previous song</p>
+                        <div class="command-usage">
+                            <code>/previous</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>queue</h3>
+                        <p>Shows the current queue</p>
+                        <div class="command-usage">
+                            <code>/queue</code>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="commands-page" id="page3">
+                    <div class="command-card">
+                        <h3>reload</h3>
+                        <p>Reload all commands</p>
+                        <div class="command-usage">
+                            <code>/reload</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>remove</h3>
+                        <p>Remove track you don't want from queue</p>
+                        <div class="command-usage">
+                            <code>/remove [position]</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>replay</h3>
+                        <p>Replay current playing track</p>
+                        <div class="command-usage">
+                            <code>/replay</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>resume</h3>
+                        <p>Resume current track</p>
+                        <div class="command-usage">
+                            <code>/resume</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>save</h3>
+                        <p>Saves current song to your DM's</p>
+                        <div class="command-usage">
+                            <code>/save</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>search</h3>
+                        <p>Search for a song</p>
+                        <div class="command-usage">
+                            <code>/search [query]</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>seek</h3>
+                        <p>Seek to a specific time in the current song</p>
+                        <div class="command-usage">
+                            <code>/seek [time]</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>shuffle</h3>
+                        <p>Randomizes the queue</p>
+                        <div class="command-usage">
+                            <code>/shuffle</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>skip</h3>
+                        <p>Skip the current song</p>
+                        <div class="command-usage">
+                            <code>/skip</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>skipto</h3>
+                        <p>Skip to a specific song in the queue</p>
+                        <div class="command-usage">
+                            <code>/skipto [position]</code>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="commands-page" id="page4">
+                    <div class="command-card">
+                        <h3>stats</h3>
+                        <p>Get information about the bot</p>
+                        <div class="command-usage">
+                            <code>/stats</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>stop</h3>
+                        <p>Stops whatever the bot is playing and leaves the voice channel<br>(This command will clear the queue)</p>
+                        <div class="command-usage">
+                            <code>/stop</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>summon</h3>
+                        <p>Summons the bot to the channel</p>
+                        <div class="command-usage">
+                            <code>/summon</code>
+                        </div>
+                    </div>
+
+                    <div class="command-card">
+                        <h3>volume</h3>
+                        <p>Change the volume of the current song</p>
+                        <div class="command-usage">
+                            <code>/volume [0-100]</code>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pagination">
+                    <button id="prevPage">&lt;</button>
+                    <span id="pageIndicator">Page <span id="currentPage">1</span> / 4</span>
+                    <button id="nextPage">&gt;</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="warning">
+            <div class="warning-content">
+                <h2>Warning</h2>
+                <p>Currently, the bot only works with SoundCloud due to technical reasons. Support for other platforms will be added later.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="logo">
+                    <img src="assets/images/logo.svg" alt="МузБот" class="logo-img">
+                    <span class="logo-text">Resonix</span>
+                </div>
+                <p class="copyright">© 2024 Resonix. All rights reserved</p>
+            </div>
+            <div class="footer-right">
+                <div class="footer-section">
+                    <h4>Website</h4>
+                    <a href="commands.html">Commands</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <a href="faq.html">FAQ</a>
+                    <a href="contact.html">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html> 
